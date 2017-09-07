@@ -43,7 +43,7 @@ class Main extends Component {
               </div>
             </div>
             <div className='size'>
-              <div className="tag">尺码</div>
+              <div className="tag">尺妈</div>
               <div className="chima">
                 <div className='button btn'>XXS</div>
                 <div className='button btn'>XS</div>
