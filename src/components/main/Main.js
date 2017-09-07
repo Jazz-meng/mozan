@@ -1,6 +1,19 @@
 import React, { Component } from 'react'
 import './main.css'
 class Main extends Component {
+  state={
+      count:0
+    }
+    addClick=()=>{
+      this.setState({
+        count:this.state.count==200 ? 0: this.state.count+1
+      })
+    }
+    subClick=()=>{
+      this.setState({
+        count:this.state.count<1 ? 0: this.state.count-1
+      })
+    }
   render () {
     return (
       <div className='main'>
@@ -57,9 +70,11 @@ class Main extends Component {
             <div className='num'>
               <div className="tag">数量</div>
               <div className="count">
-                <div className='sub'>-</div>
-                <div className='inp'>1</div>
-                <div className="add">+</div>
+                <div onClick={this.subClick} className='sub'>-</div>
+                <div id='count' className='inp'>
+                    {this.state.count}
+                </div>
+                <div onClick={this.addClick} className="add">+</div>
               </div>
             </div>
           </div>
