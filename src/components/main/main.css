@@ -1,0 +1,207 @@
+.main{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(44, 47, 52);
+}
+.banner{
+  width: 1100px;
+  margin: 0 auto;
+  background-image: url(../images/beijing.jpg);
+  display: flex;
+  flex-direction: row;
+  padding: 30px 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.banner>img{
+  display: block;
+  width: 320px;
+  /*height: 350px;*/
+}
+.main_d{
+  width:1100px;
+  padding: 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+}
+.d_left{
+  width: 628px;
+  border-right: 2px solid rgb(98, 97, 97);
+}
+.tetle{
+  width: 500px;
+  display: flex;
+  padding-bottom: 50px;
+}
+.tetle img{
+  margin-right: 30px;
+}
+.tetle h1{
+  margin: 0px;
+  color: white;
+  font-size: 34px;
+  font-weight: normal;
+}
+.time h4{
+  margin: 0;
+  color: #707070;
+  font-weight: normal;
+  line-height: 30px;
+}
+.time_in{
+  width: 400px;
+  display: flex;
+  flex-flow:row;
+  background-color: rgb(107, 107, 107);
+  border-radius: 8px;
+}
+.time_in>div{
+  width: 100px;
+}
+.time_in>div h1{
+  display: flex;
+  justify-content: space-around;
+  color: rgb(220, 224, 22);
+  font-size: 46px;
+  margin: 0;
+}
+.time_in>div h1 b{
+  font-weight: normal;
+}
+.time_in>div>span{
+  margin-left: 30px;
+  font-size: 16px;
+  color:rgb(220, 224, 22);
+}
+.time_in>div .sec{
+  margin-left: 40px;
+}
+.time p{
+  color: white;
+  font-size: 14px;
+}
+.time p span{
+  color:rgb(220, 224, 22);
+}
+.d_right{
+  width:470px;
+}
+.d_right>div{
+  margin-bottom: 25px;
+}
+.yushou,.kuanshi,.size,.num{
+  display: flex;
+}
+.tag{
+  width: 70px;
+  line-height: 28px;
+  color: rgb(66, 66, 66);
+  font-size: 14px;
+  height: 28px;
+  background-color: white;
+  border-radius:10px;
+  text-align: center;
+  margin: 0px 30px 0px 40px;
+}
+.ac{
+  margin-top: 5px;
+}
+.price{
+  width: 150px;
+
+}
+.price .first_p{
+  font-size: 20px;
+  color: rgb(220, 224, 22);
+  margin: 0;
+  font-weight: bold;
+}
+.price .first_p span{
+  font-size: 36px;
+}
+.price .second_p{
+  font-size: 16px;
+  color: white;
+  margin: 0;
+}
+.price .second_p span{
+  text-decoration: line-through;
+}
+.type{
+  width: 265px;
+  display: flex;
+  justify-content: space-around;
+}
+.d_right .button{
+  border: 2px solid rgb(215, 213, 212);
+  width: 80px;
+  height: 24px;
+  line-height: 24px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 10px;
+}
+.chima{
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.chima .btn{
+  width: 60px;
+  margin: 0px 5px 5px 0;
+}
+.count{
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+.count .sub,.count .add{
+  width: 70px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid rgb(215, 213, 212);
+}
+.count .inp{
+  width: 150px;
+  line-height: 36px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+.instantly{
+  width: 1100px;
+  padding: 20px 0;
+  border-top: 2px solid rgb(87, 88, 85);
+  border-bottom: 2px solid rgb(87, 88, 85);
+  margin: 20px 0;
+}
+.instantly .order{
+  display: block;
+  width: 1094px;
+  line-height: 70px;
+  border: 3px solid rgb(220, 224, 22);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(220, 224, 22);
+  text-decoration: none;
+  border-radius: 5px;
+}
+.bacg{
+  width: 1200px;
+  padding-top: 50px;
+  background-image: url(../images/bg2_18.png);
+  background-color: white;
+}
+.main_pic p{
+  margin: 0;
+}
+.main_pic p img{
+  display: block;
+}
